@@ -183,4 +183,12 @@ public class ListaArray implements EstruturaElementar{
             indiceAposFim -= 1;
         }
     }
+    public int[] getArray() {
+        return this.array;
+    }
+
+    public void setArray(int[] array){
+        this.array = array;
+        indiceAposFim = array.length+1;
+    }
 }
